@@ -12,7 +12,6 @@ int main() {
   ll ans=-1;
   // 如果有b^2项则b<=sqrt(n)。
   for (ll b = 2; b *b <= n; ++b) {
-   // cout<<"b="<<b<<endl;
     ll sum=0;
     ll x = n;
     while(x) {
@@ -24,7 +23,6 @@ int main() {
       break;
     }
   }
- // cout<<"ans="<<ans<<endl;
   // if (s == 1) {
   //   ans = (ans < 0 ? n : min(n, ans));
   // }
